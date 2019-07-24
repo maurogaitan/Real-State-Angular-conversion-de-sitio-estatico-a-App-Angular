@@ -6,9 +6,9 @@ const app_routes:Routes = [
     { path: 'quienes-somos', component: QuienessomosComponent },
     { path: 'contacto', component: ContactoComponent },
     { path: 'detallepropiedad', component: DetallepropiedadComponent},
-    { path: '', component: HomeComponent },
-    { path: '**', pathMatch: 'full', redirectTo: '' }
+    { path: 'home', component: HomeComponent },
+    { path: '**', pathMatch: 'full', redirectTo: 'home' }
 ];
 
-export const app_routing: any = RouterModule.forRoot(app_routes,{useHash:true});
+export const app_routing : any = RouterModule.forRoot(app_routes,{useHash:true});
 

@@ -1,4 +1,3 @@
-import { DetallepropiedadComponent } from './detallepropiedad/detallepropiedad.component';
 export { HomeComponent } from './home/home.component';
 export {ContactoComponent} from './contacto/contacto.component';
 export {PropiedadesComponent } from './propiedades/propiedades.component';
